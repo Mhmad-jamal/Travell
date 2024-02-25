@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
-    --secondary: #FE8800;
+    --primary: #FE8800;
+    --secondary: hsl(242, 100%, 50%);
     --light: #F5F5F5;
     --dark: #14141F;
 }
@@ -84,8 +84,8 @@
     margin-right: 25px;
     padding: 35px 0;
     color: #FFFFFF !important;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 60;
     outline: none;
     transition: .5s;
 }
