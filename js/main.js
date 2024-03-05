@@ -98,11 +98,13 @@ function gotowhatsapp() {
     var email = document.getElementById("email").value;
     var datetime = document.getElementById("datetime").value;
     var select1 = document.getElementById("select1").value;
+    var message = document.getElementById("message").value;
 
     var url = "https://wa.me/962798658687?text="
     + "Name: " + name + "%0a"
     + "email: " + email + "%0a"
     + "datetime: " + datetime + "%0a"
+    + "message: " + message + "%0a"
     + "select1: " + select1;
     window.open(url, '_blank').focus();
         }
