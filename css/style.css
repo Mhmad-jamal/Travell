@@ -448,3 +448,38 @@
     padding-right: 0;
     border-right: none;
 }
+
+@keyframes slideInRight{
+    from{
+        transform: translateX(300px);
+            }
+            to{
+                transform: translateX(0);
+            }
+}
+
+.heading-1{
+    animation-name: slideInRight;
+    animation-duration:1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+
+}
+
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+            }
+            to{
+                transform: translateX(0);
+            }
+}
+
+.heading-2{
+    animation-name: slideInLeft;
+    animation-duration:1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    
+}
